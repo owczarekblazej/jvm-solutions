@@ -16,5 +16,8 @@ public class ClassLoaders {
 
         System.out.println("Classloader of ArrayList:"
                 + ArrayList.class.getClassLoader());
+
+        System.out.println("Classloader of NonExistingForClassLoader:"
+                + NonExistingForClassLoader.class.getClassLoader());
     }
 }
